@@ -1,5 +1,3 @@
 #! /bin/bash
 
-rm -rf public
-cd site
-hugo && mv public ../public
+hugo -s site -d ../public
